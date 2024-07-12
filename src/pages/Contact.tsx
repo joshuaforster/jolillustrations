@@ -1,7 +1,7 @@
 import React from 'react';
 import Contact from '../PageComponent/ContactComponents/contact';
 
-const About: React.FC = () => {
+export default function ContactSection(){
   return (
     <div>
         <Contact />
@@ -9,4 +9,3 @@ const About: React.FC = () => {
   );
 };
 
-export default Contact;

@@ -21,7 +21,7 @@ export default function Gallery() {
     <div className="grid grid-cols-2 md:grid-cols-3 py-4 gap-4">
       {images.map((src, index) => (
         <div key={index} className="relative w-full h-48 md:h-64 lg:h-80">
-          <img className="absolute inset-0 w-full h-full object-contain rounded-lg border-2 bg-white border-black" src={src} alt={`Gallery image ${index + 1}`} />
+          <img className="absolute inset-0 w-full h-full object-contain rounded-lg border-2 bg-white border-black" src={src} alt={`Gallery  ${index + 1}`} />
         </div>
       ))}
     </div>

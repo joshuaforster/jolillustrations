@@ -1,12 +1,10 @@
 import React from 'react';
 import Gallery from '../PageComponent/GalleryComponent/gallery';
 
-const About: React.FC = () => {
+export default function GallerySection() {
   return (
     <div>
         <Gallery />
     </div>
   );
 };
-
-export default Gallery;
